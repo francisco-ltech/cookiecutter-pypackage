@@ -1,7 +1,7 @@
 -r requirements.txt
 cookiecutter
 flake8
-tox
 pytest
 pytest-cov
+pytest-cookies
 mypy
