@@ -16,5 +16,6 @@
         "GNU Lesser General Public License v2.1",
         "BSD 2-Clause 'Simplified' License",
         "Not open source"
-    ]
+    ],
+    "_copy_without_render": [".github/workflows/*.yml"]
 }
