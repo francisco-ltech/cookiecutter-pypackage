@@ -17,6 +17,17 @@ Generate a Python package project
 $ cookiecutter gh:francisco-ltech/cookiecutter-pypackage
 ```
 
+Then
+
+```
+$ cd my_new_pypackage
+$ make setup
+$ make install
+$ make ci
+```
+
+Note: There is also a "make local" task that you could use for quick testing between your commits.
+
 ## Features
 - [pytest](https://docs.pytest.org/en/7.0.x/) for running tests
 - [mypy](http://mypy-lang.org/) for checking typings
