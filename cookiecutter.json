@@ -1,0 +1,20 @@
+{
+    "project_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "module_name": "{{ cookiecutter.module_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "All you need to create a Python package with Tox environments, PyTest, MyPy and Flake8.",
+    "version": "1.0.0",
+    "full_name": "Francisco Ruiz A",
+    "email": "francisco@ltech.io",
+    "github_username": "francisco-ltech",
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "open_source_license": [
+        "MIT License",
+        "Apache Software License 2.0",
+        "GNU General Public License v3.0",
+        "GNU General Public License v2.0",
+        "BSD 3-Clause 'New' or 'Revised' License",
+        "GNU Lesser General Public License v2.1",
+        "BSD 2-Clause 'Simplified' License",
+        "Not open source"
+    ]
+}
