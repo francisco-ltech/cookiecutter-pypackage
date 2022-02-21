@@ -3,20 +3,25 @@ A python package template generated with cookiecutter.
 
 ![Tests](https://github.com/francisco-ltech/cookiecutter-pypackage/actions/workflows/tests.yml/badge.svg)
 
+## Install
+
+Install cookiecutter package
+
+```
+$ pip install -U cookiecutter
+```
+
+Generate a Python package project
+
+```
+$ cookiecutter gh:francisco-ltech/cookiecutter-pypackage
+```
+
 ## Packages
 - [pytest](https://docs.pytest.org/en/7.0.x/) for running tests
 - [mypy](http://mypy-lang.org/) for checking typings
 - [flake8](https://flake8.pycqa.org/en/latest/) for linting and checking code style
 - [tox](https://tox.wiki/) for running tests in various isolated environments
-
-### Pytest features
-| Name                     | Description                                                                                                          |
-|--------------------------|----------------------------------------------------------------------------------------------------------------------|
-| @pytest.mark.parametrize | Allows to feed different test cases in the form of arguments to a single test function.                              |
-| @pytest.mark.skip        | Allows to skip (not run) a test for a justified reason, e.g.: feature not yet supported.                             |
-| @pytest.mark.xfail       | Allows to ignore a failing test to not fail the build and don't count as a failure.                                  |
-| @pytest.fixture          | Allows to re-use code that will run on various test, fixtures should be place in conftest.py. E.g.: a db connection. |
-| with pytest.raises       | Allows to test an exception outcome form the function under test.                                                    |
 
 ## Build tools
 
@@ -39,3 +44,26 @@ It is **good practice** to run tox locally before git push to ensure build will 
 - The result of the test check on GH is reflected on this README.md (see top of the page).
 
 
+## Not Exactly What You Want?
+
+Don't worry, you have options:
+
+### Similar Cookiecutter Templates
+
+-   [audreyfeldroy/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage): Cookiecutter template for a Python package.
+
+### Fork This / Create Your Own
+
+If you have differences in your preferred setup, I encourage you to fork
+this to create your own version. Or create your own; it doesn't strictly
+have to be a fork.
+
+-   Once you have your own version working, add it to the Similar
+    Cookiecutter Templates list above with a brief description.
+-   It's up to you whether or not to rename your fork/own version. Do
+    whatever you think sounds good.
+
+### Or Submit a Pull Request
+
+I also accept pull requests on this, if they're small, atomic, and if
+they make my own packaging experience better.
