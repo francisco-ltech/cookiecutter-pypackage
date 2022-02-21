@@ -1,4 +1,4 @@
-from {{ cookiecutter.project_slug }}.ok import print_ok
+from {{ cookiecutter.package_slug }}.ok import print_ok
 
 
 def test_print_ok(capture_stdout):

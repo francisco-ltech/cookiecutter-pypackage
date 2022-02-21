@@ -1,7 +1,7 @@
 {
-    "project_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "module_name": "{{ cookiecutter.module_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "All you need to create a Python package with Tox environments, PyTest, MyPy and Flake8.",
+    "package_name": "Python package boilerplate",
+    "package_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "package_short_description": "All you need to create a Python package with Tox environments, PyTest, MyPy and Flake8.",
     "version": "1.0.0",
     "full_name": "Francisco Ruiz A",
     "email": "francisco@ltech.io",
