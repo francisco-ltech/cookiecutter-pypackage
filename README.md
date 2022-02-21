@@ -17,7 +17,7 @@ Generate a Python package project
 $ cookiecutter gh:francisco-ltech/cookiecutter-pypackage
 ```
 
-## Packages
+## Features
 - [pytest](https://docs.pytest.org/en/7.0.x/) for running tests
 - [mypy](http://mypy-lang.org/) for checking typings
 - [flake8](https://flake8.pycqa.org/en/latest/) for linting and checking code style
